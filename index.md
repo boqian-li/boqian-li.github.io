@@ -26,3 +26,6 @@ Currently, I am taking a gap year and serving as a Research Assistant at <a href
 - <a href="https://youtu.be/kvazBqAlx58?si=8cYzlA0AX577XNXW" style="color: light-blue;">Put Your Head On My Shoulder</a>
 - <a href="https://youtu.be/cHHLHGNpCSA?si=wVtHPuhWl84v6coI" style="color: light-blue;">Waiting For Love</a>
 - <a href="https://youtu.be/sQtnhwU2R9Y" style="color: light-blue;">All of Me</a>
+
+
+<a href="https://info.flagcounter.com/kUuI"><img src="https://s11.flagcounter.com/map/kUuI/size_s/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
