@@ -15,4 +15,4 @@ Currently, I am taking my gap year and serving as a Research Assistant at <a hre
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/honors_awards.md %}
