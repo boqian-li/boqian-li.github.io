@@ -6,7 +6,7 @@ main:
     conference: Arxiv. 2024.
     pdf: https://arxiv.org/pdf/2405.12420.pdf
     code: # https://github.com/MrGiovanni/ContinualLearning
-    project page: https://xuan-li.github.io/GarmentDreamerDemo/
+    page: https://xuan-li.github.io/GarmentDreamerDemo/
     bibtex: # https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser_garmentdreamer.png
     notes: # Early Accept
