@@ -4,19 +4,14 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a fourth-year (4/5) Undergraduate student at Huazhong University of Science and Technology(HUST). 
+Currently, I am taking my gap year and serving as a Research Assistant at <a href="https://www.example.com" style="color: lightblue;">AIVC Lab</a>, UCLA Department of Mathematics, supervised by Chenfanfu Jiang.
+
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Computer Vision / Computer Graphics:** 3D Generation, Gaussian Splatting.
 
-## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
 
 {% include_relative _includes/publications.md %}
 
