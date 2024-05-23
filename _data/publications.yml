@@ -8,5 +8,5 @@ main:
     code: # https://github.com/MrGiovanni/ContinualLearning
     page: https://xuan-li.github.io/GarmentDreamerDemo/
     bibtex: # https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_garmentdreamer.png
+    image: ./assets/img/teaser-garmentdreamer.png
     notes: # Early Accept
