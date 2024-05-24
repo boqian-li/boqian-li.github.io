@@ -1,7 +1,7 @@
 main:
 
   - title: "GarmentDreamer: 3DGS Guided Garment Synthesis with Diverse Geometry and Texture Details"
-    authors: <strong>Boqian Li*</strong>, Xuan Li*, Ying Jiang*, Tianyi Xie, Feng Gao, Huamin Wang, Yin Yang, and Chenfanfu Jiang. (*Equal contributions.)
+    authors: <strong><em>Boqian Li*</em></strong>, Xuan Li*, Ying Jiang*, Tianyi Xie, Feng Gao, Huamin Wang, Yin Yang, and Chenfanfu Jiang. (*Equal contributions.)
     conference_short: Arxiv
     conference: Arxiv. 2024.
     pdf: https://arxiv.org/pdf/2405.12420.pdf
