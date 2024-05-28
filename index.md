@@ -13,7 +13,7 @@ Currently, I am taking a gap year and serving as a Research Assistant at <a href
 - **Computer Vision / Computer Graphics:** 3D Generation and Reconstruction.
 
 
-{% include_relative _includes/publications.md %}
+# {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/honors_awards.md %}
 
