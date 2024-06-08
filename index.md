@@ -7,6 +7,7 @@ layout: homepage
 I am a fourth-year (4/5) Undergraduate student at <a href="https://english.hust.edu.cn/" style="color: light-blue;">Huazhong University of Science and Technology(HUST)</a>.
 From November 2023 to May 2024, I took a gap year and served as a Research Assistant at <a href="https://www.math.ucla.edu/aivc/" style="color: light-blue;">AIVC Lab</a>, UCLA Department of Mathematics, supervised by Prof. <a href="https://www.math.ucla.edu/~cffjiang/index.html" style="color: light-blue;">Chenfanfu Jiang</a>.
 
+**I am currently seeking remote or on-site internship and research opportunities. If interested, please get in touch with me via email :) !**
 
 ## Research Interests
 
