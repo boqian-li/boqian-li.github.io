@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 I am a fourth-year (4/5) Undergraduate student at <a href="https://english.hust.edu.cn/" style="color: light-blue;">Huazhong University of Science and Technology(HUST)</a>.
-From November 2023 to May 2024, I took a gap year and served as a Research Assistant at <a href="https://www.math.ucla.edu/aivc/" style="color: light-blue;">AIVC Lab</a>, UCLA Department of Mathematics, supervised by Prof. <a href="https://www.math.ucla.edu/~cffjiang/index.html" style="color: light-blue;">Chenfanfu Jiang</a>.
+Currently, I am a research intern at Endless Lab, Westlake University, supervised by Prof. Yuliang Xiu. From November 2023 to May 2024, I took a gap year and served as a Research Assistant at <a href="https://www.math.ucla.edu/aivc/" style="color: light-blue;">AIVC Lab</a>, UCLA Department of Mathematics, supervised by Prof. <a href="https://www.math.ucla.edu/~cffjiang/index.html" style="color: light-blue;">Chenfanfu Jiang</a>. Before that, I was interested in NLP(Debiased Vision-Language Model) and EEG analysis. 
 
 
 ## Research Interests
