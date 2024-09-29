@@ -5,12 +5,14 @@ layout: homepage
 ## About Me
 
 I am a fourth-year (4/5) undergraduate student at <a href="https://english.hust.edu.cn/" style="color: light-blue;">Huazhong University of Science and Technology(HUST)</a>.
-Currently, I am a research intern at Endless Lab, Westlake University, supervised by Prof. <a href="https://xiuyuliang.cn/" style="color: light-blue;">Yuliang Xiu</a>, focusing on Democratizing Human-centric Digitization. From November 2023 to May 2024, I took a gap year and served as a Research Assistant at <a href="https://www.math.ucla.edu/aivc/" style="color: light-blue;">AIVC Lab</a>, UCLA Department of Mathematics, supervised by Prof. <a href="https://www.math.ucla.edu/~cffjiang/index.html" style="color: light-blue;">Chenfanfu Jiang</a> and Prof. <a href="https://yangzzzy.github.io/" style="color: light-blue;">Yin Yang</a>, focusing on Diffusion based 3D Garment Generation with 3D Gaussian Splatting. Before that, I was interested in physical simulation, NLP(Debiased Vision-Language Model) and BCI(EEG analysis). 
+Currently, I am a research intern at Endless Lab, Westlake University, supervised by Prof. <a href="https://xiuyuliang.cn/" style="color: light-blue;">Yuliang Xiu</a>, focusing on Representation and Understanding of 3D Digital Humans. From November 2023 to May 2024, I took a gap year and served as a Research Assistant at <a href="https://www.math.ucla.edu/aivc/" style="color: light-blue;">AIVC Lab</a>, UCLA Department of Mathematics, supervised by Prof. <a href="https://www.math.ucla.edu/~cffjiang/index.html" style="color: light-blue;">Chenfanfu Jiang</a> and Prof. <a href="https://yangzzzy.github.io/" style="color: light-blue;">Yin Yang</a>, focusing on Diffusion based 3D Garment Generation with 3D Gaussian Splatting. Before that, I was interested in physical simulation, NLP(Debiased Vision-Language Model) and BCI(EEG analysis). 
 
 
 ## Research Interests
 
-- **Computer Vision / Computer Graphics:** 3D Generation and Reconstruction.
+- **Computer Vision / Computer Graphics:**
+  1. 3D Generation and Reconstruction.
+  2. 3D Understanding.
 
 
 {% include_relative _includes/publications.md %}
