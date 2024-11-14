@@ -5,7 +5,7 @@ main:
     conference_short: # 3DV 2025
     conference: <strong><em>International Conference on 3D Vision (3DV) 2025</em></strong>
     pdf: https://arxiv.org/pdf/2405.12420.pdf
-    code: # https://github.com/MrGiovanni/ContinualLearning
+    code: https://github.com/boqian-li/GarmentDreamer
     page: https://xuan-li.github.io/GarmentDreamerDemo/
     bibtex: # https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser-garmentdreamer.png
