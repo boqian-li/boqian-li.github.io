@@ -11,7 +11,9 @@ Currently, I am a research intern at Endless Lab, Westlake University, supervise
 
 ## News
 
-- **[Nov. 2024]**: [New Publication](https://arxiv.org/abs/2405.12420) - My first official work **GarmentDreamer** has been accepted to 3DV 2025. Thanks to Professors Chenfanfu Jiang and Yin Yang for their guidance and all my co-authors for their invaluable work! See you in Singapore!
+- **[Nov. 2024]**: [New Publication](https://arxiv.org/abs/2405.12420) 
+  - My first official work **GarmentDreamer** has been accepted to 3DV 2025. Thanks to Professors Chenfanfu Jiang and Yin Yang for their guidance and all my co-authors for their invaluable work! See you in Singapore!
+  - Official code is now available at [GarmentDreamer](https://github.com/boqian-li/GarmentDreamer).
 
 ## Research Interests
 
