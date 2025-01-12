@@ -18,22 +18,25 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Boqian Li",
+  title: "Undergraduate Student",
+  institution: "Huazhong University of Science and Technology(HUST)",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    "I am a fourth-year (4/5) undergraduate student at <a href='https://english.hust.edu.cn/'>Huazhong University of Science and Technology(HUST)</a>. <br><br> \
+    Currently, I am a research intern at Endless Lab, Westlake University, supervised by Prof. <a href='https://xiuyuliang.cn/'>Yuliang Xiu</a>, focusing on Representation and Understanding of 3D Digital Humans. <br><br> \
+    From 2023 to 2024, I served as a Research Assistant at <a href='https://www.math.ucla.edu/aivc/'>AIVC Lab</a>, UCLA Department of Mathematics, supervised by Prof. <a href='https://www.math.ucla.edu/~cffjiang/index.html'>Chenfanfu Jiang</a> and Prof. <a href='https://yangzzzy.github.io/'>Yin Yang</a>, focusing on 3D Garment Generation. \
+    Before that, I explored and practiced in areas like physical simulation, NLP(Debiased Vision-Language Model) and BCI(EEG analysis).",
+  email: "boqianlihuster@gmail.com",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "/images/me.jpg",
+  googleScholarUrl: "https://scholar.google.com/citations?user=7I8FkuoAAAAJ",
+  githubUsername: "boqian-li",
+  linkedinUsername: "boqian-li-3b8528282",
+  twitterUsername: "Boqian_Li_",
+  // blogUrl: "https://",
+  cvUrl: "/files/CV_Boqian_Li.pdf",
+  institutionUrl: "https://english.hust.edu.cn/",
   // altName: "",
-  // secretDescription: "I like dogs.",
+  secretDescription: "Confidence is an ability to move from thought to action.",
 };
