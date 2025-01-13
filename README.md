@@ -114,5 +114,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Feel free to drop a pull request whenever! -->
 
-Boqian Li's personal website.
+Boqian Li's [personal website](https://boqian-li.github.io/).
 Thanks for the template from [tovacinni](https://github.com/tovacinni/research-website-template).
