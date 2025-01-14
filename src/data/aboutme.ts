@@ -28,8 +28,7 @@ export const aboutMe: AboutMe = {
     From 2023 to 2024, I served as a Research Assistant at <a href='https://www.math.ucla.edu/aivc/'>AIVC Lab</a>, UCLA Department of Mathematics, supervised by Prof. <a href='https://www.math.ucla.edu/~cffjiang/index.html'>Chenfanfu Jiang</a> and Prof. <a href='https://yangzzzy.github.io/'>Yin Yang</a>, focusing on 3D Garment Generation. \
     Before that, I explored and practiced in areas like physical simulation, NLP(Debiased Vision-Language Model) and BCI(EEG analysis).",
   email: "boqianlihuster@gmail.com",
-  imageUrl:
-    "/images/me.jpg",
+  imageUrl: "/images/me_rmbg.png",
   googleScholarUrl: "https://scholar.google.com/citations?user=7I8FkuoAAAAJ",
   githubUsername: "boqian-li",
   linkedinUsername: "boqian-li-3b8528282",
