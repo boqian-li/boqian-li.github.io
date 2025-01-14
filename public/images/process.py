@@ -1,7 +1,7 @@
 from PIL import Image
 
 # 打开图片A（JPG）
-image_a = Image.open('me.jpg').convert('RGBA')
+image_a = Image.open('IMG_0684.JPG').convert('RGBA')
 
 # 打开图片B（PNG）
 image_b = Image.open('me_rmbg.png').convert('RGBA')
@@ -18,4 +18,4 @@ r, g, b, _ = image_a.split()
 image_c = Image.merge('RGBA', (r, g, b, mask))
 
 # 保存结果图片C
-image_c.save('me_rmbg_1.png')
+image_c.save('IMG_0684.png')
