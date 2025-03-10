@@ -206,7 +206,7 @@
     </div>
     
     <div class="has-text-centered mt-5">
-      <button class="button is-primary is-medium" onclick="toggleMoreVideos()">Check out more results</button>
+      <button class="button is-primary is-medium toggle-videos-btn" onclick="toggleMoreVideos()">Check out more results</button>
     </div>
     
     <!-- 更多视频，初始隐藏 -->
@@ -383,7 +383,7 @@
 <script>
 function toggleMoreVideos() {
   var moreVideos = document.getElementById("more-videos");
-  var btn = document.querySelector(".button");
+  var btn = document.querySelector(".toggle-videos-btn");
   
   if (moreVideos.style.display === "none") {
     moreVideos.style.display = "flex";
