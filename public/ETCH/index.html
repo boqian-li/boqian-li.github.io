@@ -50,7 +50,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">
+          <h1 class="title is-3 publication-title">
             <span style="color: red;">ETCH</span>: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness
           </h1> 
           <div class="is-size-5 publication-authors">
@@ -102,7 +102,7 @@
     <div class="hero-body">
       <img src="static/images/Teasor.svg" alt="Project Teaser Image" width="100%">
       
-      <h2 class="subtitle has-text-justified is-5">
+      <h2 class="subtitle has-text-justified is-6">
         <p>
           <strong>Body Fitting on Clothed Humans.</strong> Given 3D clothed humans in everyday outfits, regardless of style, looseness, or non-rigid dynamics, ETCH accurately fits the <em>body underneath</em>. Our key novelty is the modeling of cloth-to-body SE(3)-equivariant tightness vectors, colored as <span style="background: linear-gradient(to right, #fee975, #c0321a);">yellow-to-red</span>. 
           The ground truth body is in <span style="color: rgb(0, 129, 234);">blue</span>, our fitted body is in <span style="color: rgb(54, 213, 192);">green</span>, and ground truth markers are in <span style="color: red;">red</span>.
@@ -117,7 +117,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-4">Abstract</h2>
         <div class="content has-text-justified">
           <p>
             Fitting a body to a 3D clothed human point cloud is a common yet challenging task. Traditional optimization-based approaches use multi-stage pipelines that are sensitive to pose initialization, while recent learning-based methods often struggle with generalization across diverse poses and garment types. We propose Equivariant Tightness Fitting for Clothed Humans, or ETCH, a novel pipeline that estimates cloth-to-body surface mapping through locally approximate SE(3) equivariance, encoding tightness as displacement vectors from the cloth surface to the underlying body. Following this mapping, pose-invariant body features regress sparse body markers, simplifying clothed human fitting into an inner-body marker fitting task. Extensive experiments on CAPE and 4D-Dress show that ETCH significantly outperforms state-of-the-art methods -- both tightness-agnostic and tightness-aware -- in body fitting accuracy on loose clothing (<span style="color: ForestGreen;">16.7% ~ 69.5%</span>) and shape accuracy (average <span style="color: ForestGreen;">49.9%</span>). Our equivariant tightness design can even reduce directional errors by (<span style="color: ForestGreen;">67.2% ~ 89.8%</span>) in few-shot (or out-of-distribution) settings (&lt;1% data). Qualitative results demonstrate strong generalization of ETCH, regardless of challenging poses, unseen shapes, loose clothing, and non-rigid dynamics. We will release the code and models soon for research purposes.
@@ -131,7 +131,7 @@
 <!-- Method section -->
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered">Method</h2>
+    <h2 class="title is-4 has-text-centered">Method</h2>
     
     <!-- Pipeline figure -->
     <div class="columns is-centered">
@@ -140,7 +140,7 @@
         
         <h3 class="subtitle has-text-justified is-6">
           <p>
-            <strong>ETCH Pipeline:</strong> <strong>1) Equivariant Tightness Vector Prediction</strong>, which takes the sampeld points <b>X</b> as input, and estimates the tightness direction <b>D</b> via <span style="color: orange;">equivariant features f<sup>equiv</sup> </span>, along with the tightness scalar <b>B</b>, labels <b>L</b>, and confidences <b>C</b> via <span style="color: #00804d;">invariant features f<sup>inv</sup> </span>. With these ingredients, in <strong>2) Marker Aggregation and SMPL Optimization</strong>, the points move inward along the tightness vector, forming body-shaped point clouds. These points are weighted and aggregated, based on their labels, to produce final markers for SMPL fitting.
+            <strong>1. ETCH Pipeline:</strong> <strong>1) Equivariant Tightness Vector Prediction</strong>, which takes the sampeld points <b>X</b> as input, and estimates the tightness direction <b>D</b> via <span style="color: orange;">equivariant features f<sup>equiv</sup> </span>, along with the tightness scalar <b>B</b>, labels <b>L</b>, and confidences <b>C</b> via <span style="color: #00804d;">invariant features f<sup>inv</sup> </span>. With these ingredients, in <strong>2) Marker Aggregation and SMPL Optimization</strong>, the points move inward along the tightness vector, forming body-shaped point clouds. These points are weighted and aggregated, based on their labels, to produce final markers for SMPL fitting.
           </p>
         </h3>
       </div>
@@ -151,9 +151,9 @@
       <div class="column">
         <img src="static/images/tightness.svg" alt="Tightness Vector Illustration" width="100%">
         
-        <h3 class="subtitle has-text-centered">
+        <h3 class="subtitle has-text-centered is-6">
           <p>
-            <strong>Illustration of our Tightness-Vector and Marker-Confidence system.</strong> 
+            <strong>2. Illustration of our Tightness-Vector and Marker-Confidence system.</strong> 
           </p>
         </h3>
       </div>
@@ -163,7 +163,7 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="title is-3 has-text-centered">Clothed Human Fitting Results</h2>
+    <h2 class="title is-4 has-text-centered">Clothed Human Fitting Results</h2>
     <h3 class="subtitle is-5 has-text-centered mb-5">(Scan, Fitted SMPL, 3D Tightness Hotmap)</h3>
     
     <div class="columns is-multiline">
