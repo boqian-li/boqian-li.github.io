@@ -16,6 +16,17 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
+    conference: "arXiv",
+    title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness",
+    authors: "<b>Boqian Li</b>, Haiwen Feng*, Zeyu Cai, Michael J. Black, Yuliang Xiu† (* group lead, † corresponding author)",
+    paperUrl: "https://arxiv.org/abs/2503.10624",
+    tldr: "Body fitting for clothed humans via equivariant tightness vectors and sparse markers, enabling handling challenging poses, unseen shapes, loose clothing, and extreme dynamics.",
+    codeUrl: "https://github.com/boqian-li/ETCH",
+    pageUrl: "https://boqian-li.github.io/ETCH/",
+    imageUrl: "/images/teaser-etch.png",
+  },
+  {
+    year: "2025",
     conference: "3DV",
     title: "GarmentDreamer: 3DGS Guided Garment Synthesis with Diverse Geometry and Texture Details",
     authors: "<b>Boqian Li</b>*, Xuan Li*, Ying Jiang*, Tianyi Xie, Feng Gao, Huamin Wang, Yin Yang, and Chenfanfu Jiang (* equal contribution)",
@@ -29,17 +40,6 @@ export const publicationData: Publication[] = [
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
-  },
-  {
-    year: "2025",
-    conference: "arXiv",
-    title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness",
-    authors: "<b>Boqian Li</b>, Haiwen Feng*, Zeyu Cai, Michael J. Black, Yuliang Xiu† (* group lead, † corresponding author)",
-    paperUrl: "https://arxiv.org/abs/2503.10624",
-    tldr: "Body fitting for clothed humans via equivariant tightness vectors and sparse markers, enabling handling challenging poses, unseen shapes, loose clothing, and extreme dynamics.",
-    codeUrl: "https://github.com/boqian-li/ETCH",
-    pageUrl: "https://boqian-li.github.io/ETCH/",
-    imageUrl: "/images/teaser-etch.png",
   },
   // {
   //   year: "2023",
