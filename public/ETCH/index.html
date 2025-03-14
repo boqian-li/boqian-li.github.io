@@ -143,38 +143,6 @@
   </div>
 </section>
 
-<!-- Method section -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-4 has-text-centered">Method</h2>
-    
-    <!-- Pipeline figure -->
-    <div class="columns is-centered">
-      <div class="column">
-        <img src="static/images/pipeline-large.svg" alt="ETCH Pipeline" width="100%">
-        
-        <h3 class="subtitle has-text-justified is-6">
-          <p>
-            <strong>1. ETCH Pipeline:</strong> <strong>1) Equivariant Tightness Vector Prediction</strong>, which takes the sampled points <b>X</b> as input, and estimates the tightness directions <b>D</b> via <span style="color: orange;">equivariant features f<sup>equiv</sup> </span>, along with the tightness magnitudes <b>B</b>, labels <b>L</b>, and confidences <b>C</b> via <span style="color: #00804d;">invariant features f<sup>inv</sup> </span>. With these ingredients, in <strong>2) Marker Aggregation and SMPL Optimization</strong>, the points move inward along the tightness vectors, forming body-shaped point clouds. These points are weighted and aggregated, based on their labels and confidences, to produce final markers for SMPL fitting.
-          </p>
-        </h3>
-      </div>
-    </div>
-    
-    <!-- Tightness Vector figure -->
-    <div class="columns is-centered mt-5">
-      <div class="column">
-        <img src="static/images/tightness.svg" alt="Tightness Vector Illustration" width="100%">
-        
-        <h3 class="subtitle has-text-centered is-6">
-          <p>
-            <strong>2. Illustration of our Tightness-Vector and Marker-Confidence system.</strong> 
-          </p>
-        </h3>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="section">
   <div class="container">
@@ -369,6 +337,40 @@
         <video autoplay controls muted loop preload="metadata" width="100%">
           <source src="static/etch_videos/00154_Outer_Take21_00111.mp4" type="video/mp4">
         </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Method section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-4 has-text-centered">Method</h2>
+    
+    <!-- Pipeline figure -->
+    <div class="columns is-centered">
+      <div class="column">
+        <img src="static/images/pipeline-large.svg" alt="ETCH Pipeline" width="100%">
+        
+        <h3 class="subtitle has-text-justified is-6">
+          <p>
+            <strong>1. ETCH Pipeline:</strong> <strong>1) Equivariant Tightness Vector Prediction</strong>, which takes the sampled points <b>X</b> as input, and estimates the tightness directions <b>D</b> via <span style="color: orange;">equivariant features f<sup>equiv</sup> </span>, along with the tightness magnitudes <b>B</b>, labels <b>L</b>, and confidences <b>C</b> via <span style="color: #00804d;">invariant features f<sup>inv</sup> </span>. With these ingredients, in <strong>2) Marker Aggregation and SMPL Optimization</strong>, the points move inward along the tightness vectors, forming body-shaped point clouds. These points are weighted and aggregated, based on their labels and confidences, to produce final markers for SMPL fitting.
+          </p>
+        </h3>
+      </div>
+    </div>
+    
+    <!-- Tightness Vector figure -->
+    <div class="columns is-centered mt-5">
+      <div class="column">
+        <img src="static/images/tightness.svg" alt="Tightness Vector Illustration" width="100%">
+        
+        <h3 class="subtitle has-text-centered is-6">
+          <p>
+            <strong>2. Illustration of our Tightness-Vector and Marker-Confidence system.</strong> 
+          </p>
+        </h3>
       </div>
     </div>
   </div>
