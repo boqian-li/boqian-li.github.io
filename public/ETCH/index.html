@@ -51,7 +51,8 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-3 publication-title">
-              <span style="color: red;">ETCH</span>: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness
+              <span style="background: linear-gradient(to right, #fee975, #e24024); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.3rem;">ETCH</span><br>  
+              <span style="font-size: 1.9rem;">Generalizing Body Fitting to Clothed Humans via Equivariant Tightness</span>
             </h1> 
             <div class="is-size-5 publication-authors" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
               <!-- Paper authors -->
@@ -101,6 +102,28 @@
                     <span>arXiv</span>
                   </a>
                 </span>
+
+                <!-- Twitter link -->
+                <span class="link-block">
+                  <a href="https://x.com/Boqian_Li_/status/1908467186122817642" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-twitter"></i>
+                    </span>
+                    <span>Twitter</span>
+                  </a>
+                </span>
+
+                <!-- Youtube link-->
+                <span class="link-block">
+                  <a href="https://youtu.be/8_3DdW0cZqM" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
               </div>
             </div>
           </div>
@@ -116,9 +139,9 @@
     <div class="hero-body">
       <img src="static/images/Teasor.svg" alt="Project Teaser Image" width="100%">
       
-      <h2 class="subtitle has-text-justified is-6">
+      <h2 class="subtitle has-text-justified is-5">
         <p>
-          <strong>Body Fitting on Clothed Humans.</strong> Given 3D clothed humans in any pose and clothing, ETCH accurately fits the <em>body underneath</em>. Our key novelty is modeling cloth-to-body SE(3)-equivariant <span style="background: linear-gradient(to right, #fee975, #c0321a);">tightness vectors</span> for clothed humans, abbreviated as ETCH, which resembles “etching” from the outer
+          <strong>Body Fitting on Clothed Humans.</strong> Given 3D clothed humans in any pose and clothing, ETCH accurately fits the <em>body underneath</em>. Our key novelty is modeling cloth-to-body SE(3)-equivariant <span style="background: linear-gradient(to right, #fee975, #e24024); -webkit-background-clip: text; -webkit-text-fill-color: transparent; ">tightness vectors</span> for clothed humans, abbreviated as ETCH, which resembles "etching" from the outer
           clothing down to the inner body. 
           The ground-truth body is shown in <span style="color: rgb(0, 129, 234);">blue</span>, our fitted body in <span style="color: rgb(54, 213, 192);">green</span>, and ground-truth markers as <span style="color: red;">●</span>.
         </p>
@@ -127,7 +150,26 @@
   </div>
 </section>
 
-<!-- Paper abstract -->
+<!-- YouTube Video Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Video to illustrate How <span style="background: linear-gradient(to right, #fee975, #e24024); -webkit-background-clip: text; -webkit-text-fill-color: transparent; ">ETCH</span> works</h2>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="has-text-centered">
+          <div class="publication-video">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/8_3DdW0cZqM" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+Paper abstract
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -142,11 +184,12 @@
     </div>
   </div>
 </section>
+-->
 
 
 <section class="section">
   <div class="container">
-    <h2 class="title is-4 has-text-centered">Clothed Human Fitting Results</h2>
+    <h2 class="title is-3 has-text-centered">Clothed Human Fitting Results</h2>
     <h3 class="subtitle is-5 has-text-centered mb-5">(Scan, Fitted SMPL, 3D Tightness Hotmap)</h3>
     
     <div class="columns is-multiline">
@@ -346,7 +389,7 @@
 <!-- Method section -->
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-4 has-text-centered">Method</h2>
+    <h2 class="title is-3 has-text-centered">Method</h2>
     
     <!-- Pipeline figure -->
     <div class="columns is-centered">
