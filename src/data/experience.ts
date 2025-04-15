@@ -21,7 +21,7 @@ export const experienceData: Experience[] = [
   {
     date: "Nov 2023 - May 2024",
     title: "Research Intern",
-    company: "AIVC Lab, UCLA Department of Mathematics",
+    company: "University of Utah & AIVC Lab, UCLA",
     description:
       "Focus on 3D Garment Synthesis and Diffusion based Generative Models.",
     advisor: "Prof. Chenfanfu Jiang and Prof. Yin Yang",

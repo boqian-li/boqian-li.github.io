@@ -25,7 +25,7 @@ export const aboutMe: AboutMe = {
   description:
     "I am a final-year undergraduate student at <a href='https://english.hust.edu.cn/'>Huazhong University of Science and Technology(HUST)</a>. <br><br> \
     Currently, I am a research intern at <a href='http://endless.do/'>Endless Lab</a>, supervised by Prof. <a href='https://xiuyuliang.cn/'>Yuliang Xiu</a>, focusing on Representation and Understanding of 3D Digital Humans. <br><br> \
-    From 2023 to 2024, I served as a Research Assistant at <a href='https://www.math.ucla.edu/aivc/'>AIVC Lab</a>, UCLA Department of Mathematics, supervised by Prof. <a href='https://www.math.ucla.edu/~cffjiang/index.html'>Chenfanfu Jiang</a> and Prof. <a href='https://yangzzzy.github.io/'>Yin Yang</a>, focusing on 3D Garment Generation. \
+    From 2023 to 2024, I served as a Research Intern at University of Utah and <a href='https://www.math.ucla.edu/aivc/'>AIVC Lab</a> at UCLA, supervised by Prof. <a href='https://www.math.ucla.edu/~cffjiang/index.html'>Chenfanfu Jiang</a> and Prof. <a href='https://yangzzzy.github.io/'>Yin Yang</a>, focusing on 3D Garment Generation. \
     Before that, I explored and practiced in areas like physical simulation, NLP(Debiased Vision-Language Model) and BCI(EEG analysis). <br><br> \
     <strong>I am looking for Fall 2026 PhD opportunities and am open to discussing potential research collaborations. Please contact me if you are interested! :)</strong>",
   email: "boqianlihuster@gmail.com",
