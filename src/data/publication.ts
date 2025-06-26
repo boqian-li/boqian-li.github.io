@@ -16,9 +16,9 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
-    conference: "arXiv",
+    conference: "ICCV",
     title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness",
-    authors: "<b>Boqian Li</b>, Haiwen Feng*, Zeyu Cai, Michael J. Black, Yuliang Xiu† (* group lead, † corresponding author)",
+    authors: "<b>Boqian Li</b>, Haiwen Feng*, Zeyu Cai, Michael&nbsp;J.&nbsp;Black, Yuliang Xiu†<br><br>(* group lead, † corresponding author)",
     paperUrl: "https://arxiv.org/abs/2503.10624",
     tldr: "Body fitting for clothed humans via equivariant tightness vectors and sparse markers, enabling handling challenging poses, unseen shapes, loose clothing, and extreme dynamics.",
     codeUrl: "https://github.com/boqian-li/ETCH",
@@ -29,7 +29,7 @@ export const publicationData: Publication[] = [
     year: "2025",
     conference: "3DV",
     title: "GarmentDreamer: 3DGS Guided Garment Synthesis with Diverse Geometry and Texture Details",
-    authors: "<b>Boqian Li</b>*, Xuan Li*, Ying Jiang*, Tianyi Xie, Feng Gao, Huamin Wang, Yin Yang, and Chenfanfu Jiang (* equal contribution)",
+    authors: "<b>Boqian Li</b>*, Xuan Li*, Ying Jiang*, Tianyi Xie, Feng&nbsp;Gao, Huamin Wang, Yin Yang, Chenfanfu&nbsp;Jiang<br><br>(* equal contribution)",
     paperUrl: "https://arxiv.org/abs/2405.12420",
     codeUrl: "https://github.com/boqian-li/GarmentDreamer",
     pageUrl: "https://xuan-li.github.io/GarmentDreamerDemo/",
