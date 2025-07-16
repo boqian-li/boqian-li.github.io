@@ -6,10 +6,11 @@ export interface Publication {
   paperUrl?: string;
   codeUrl?: string;
   bibtex?: string;
+  projectUrl?: string;
   tldr?: string;
   imageUrl?: string;
+  videoUrl?: string;
   award?: string;
-  pageUrl?: string;
 }
 
 export const publicationData: Publication[] = [
@@ -22,7 +23,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/abs/2503.10624",
     tldr: "Body fitting for clothed humans via equivariant tightness vectors and sparse markers, enabling handling challenging poses, unseen shapes, loose clothing, and extreme dynamics.",
     codeUrl: "https://github.com/boqian-li/ETCH",
-    pageUrl: "https://boqian-li.github.io/ETCH/",
+    projectUrl: "https://boqian-li.github.io/ETCH/",
     imageUrl: "/images/teaser-etch.png",
   },
   {
@@ -32,7 +33,7 @@ export const publicationData: Publication[] = [
     authors: "<b>Boqian Li</b>*, Xuan Li*, Ying Jiang*, Tianyi Xie, Feng&nbsp;Gao, Huamin Wang, Yin Yang, Chenfanfu&nbsp;Jiang<br><br>(* equal contribution)",
     paperUrl: "https://arxiv.org/abs/2405.12420",
     codeUrl: "https://github.com/boqian-li/GarmentDreamer",
-    pageUrl: "https://xuan-li.github.io/GarmentDreamerDemo/",
+    projectUrl: "https://xuan-li.github.io/GarmentDreamerDemo/",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "A novel 3DGS-guided template-based garment synthesis framework with impressive results.",
     imageUrl:

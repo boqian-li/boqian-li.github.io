@@ -1,26 +1,44 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Noto_Serif, PT_Serif } from "next/font/google";
+import localFont from "next/font/local";
+import { Noto_Serif_SC } from "next/font/google";
 import "./globals.css";
 import { aboutMe } from "@/data/aboutme";
 import { customMetadata } from "@/data/title-description";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+
+const linuxBiolinum = localFont({
+  src: [
+    {
+      path: "../../public/fonts/linux-biolinum/LinBiolinum_R.woff",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/linux-biolinum/LinBiolinum_RB.woff",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/linux-biolinum/LinBiolinum_RI.woff",
+      weight: "400",
+      style: "italic",
+    },
+  ],
+  variable: "--font-linux-biolinum",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const linuxBiolinumK = localFont({
+  src: [
+    {
+      path: "../../public/fonts/linux-biolinum/LinBiolinum_K.woff",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-linux-biolinum-k",
 });
 
-const notoSerif = Noto_Serif({
-  variable: "--font-noto-serif",
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
-
-const ptSerif = PT_Serif({
-  variable: "--font-pt-serif",
+const notoSerifSC = Noto_Serif_SC({
+  variable: "--font-noto-serif-sc",
   subsets: ["latin"],
   weight: ["400", "700"],
 });
@@ -41,7 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${notoSerif.variable} ${ptSerif.variable} antialiased`}
+        className={`${linuxBiolinum.variable} ${linuxBiolinumK.variable} ${notoSerifSC.variable} antialiased`}
       >
         <main className="">{children}</main>
         <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-[#FFFCF8]">

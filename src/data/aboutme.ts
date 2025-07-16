@@ -19,6 +19,7 @@ export interface AboutMe {
 
 export const aboutMe: AboutMe = {
   name: "Boqian Li",
+  altName: "李博谦",
   title: "Undergraduate Student",
   institution: "Huazhong University of Science and Technology(HUST)",
   // Note that links work in the description

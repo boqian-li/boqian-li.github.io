@@ -4,24 +4,23 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #050505;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--source-serif-font), Georgia, serif;
+  font-family: var(--font-linux-biolinum);
 }
 
-/* Elements marked with serif class or font-serif will use Source Serif */
+/* Elements marked with serif class or font-serif will use Linux Biolinum */
 .font-serif,
 .serif {
-  font-family: ui-serif, var(--font-pt-serif), var(--font-noto-serif), Georgia,
-    serif;
+  font-family: var(--font-linux-biolinum);
 }
 
-/* Elements marked with sans or font-sans will use Geist */
+/* Elements marked with sans or font-sans will use Linux Biolinum K */
 .font-sans,
 .sans {
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--font-linux-biolinum-k), var(--font-linux-biolinum), system-ui, sans-serif;
 }
