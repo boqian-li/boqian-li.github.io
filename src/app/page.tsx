@@ -11,7 +11,7 @@ import { experienceData } from "@/data/experience";
 import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
 import { sectionOrder, Section } from "@/data/section-order";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Home() {
   return (

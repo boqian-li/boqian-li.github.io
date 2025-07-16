@@ -5,7 +5,7 @@ import {
   Mail,
   StickyNote,
   Twitter,
-  ArrowUpRight,
+  // ArrowUpRight,
   GraduationCap,
 } from "lucide-react";
 import { AboutMe } from "@/data/aboutme";
