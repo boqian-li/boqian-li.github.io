@@ -5,7 +5,7 @@ import {
   Mail,
   StickyNote,
   Twitter,
-  // ArrowUpRight,
+  ArrowUpRight,
   GraduationCap,
 } from "lucide-react";
 import { AboutMe } from "@/data/aboutme";
@@ -69,7 +69,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             <a
               href={aboutMe.cvUrl}
               // className="inline-flex items-center gap-2 text-base underline text-[#1e86c8] hover:text-blue-900 transition-colors font-bold"
-              className="group inline-flex items-center gap-2 text-base hover:text-zinc-900 transition-colors"
+              className="group inline-flex items-center gap-2 text-base hover:text-zinc-500 transition-colors" 
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -82,7 +82,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
           <a
             href={`mailto:${aboutMe.email}`}
             // className="inline-flex items-center gap-2 text-base underline text-[#1e86c8] hover:text-blue-900 transition-colors font-bold"
-            className="group inline-flex items-center gap-2 text-base hover:text-zinc-900 transition-colors"
+            className="group inline-flex items-center gap-2 text-base hover:text-zinc-500 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -94,11 +94,11 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
               <br />
               <a
                 href={aboutMe.googleScholarUrl}
-                className="group inline-flex items-center gap-2 text-base hover:text-zinc-900 transition-colors"
+                className="group inline-flex items-center gap-2 text-base hover:text-zinc-500 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GraduationCap size={14} className="group-hover:-translate-y-0.5 transition-transform duration-300"/>
+                <GraduationCap size={14} className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"/>
                 Google Scholar
               </a>
             </>
@@ -108,11 +108,11 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
               <br />
               <a
                 href={`https://twitter.com/${aboutMe.twitterUsername}`}
-                className="group inline-flex items-center gap-2 text-base hover:text-zinc-900 transition-colors"
+                className="group inline-flex items-center gap-2 text-base hover:text-zinc-500 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twitter size={14} className="group-hover:-translate-y-0.5 transition-transform duration-300"/>
+                <Twitter size={14} className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"/>
                 @{aboutMe.twitterUsername}
               </a>
             </>
@@ -122,11 +122,11 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
               <br />
               <a
                 href={`https://github.com/${aboutMe.githubUsername}`}
-                className="group inline-flex items-center gap-2 text-base hover:text-zinc-900 transition-colors"
+                className="group inline-flex items-center gap-2 text-base hover:text-zinc-500 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github size={14} className="group-hover:-translate-y-0.5 transition-transform duration-300"/>
+                <Github size={14} className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"/>
                 github.com/{aboutMe.githubUsername}
               </a>
             </>
@@ -136,11 +136,11 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
               <br />
               <a
                 href={`https://www.linkedin.com/in/${aboutMe.linkedinUsername}`}
-                className="group inline-flex items-center gap-2 text-base hover:text-zinc-900 transition-colors"
+                className="group inline-flex items-center gap-2 text-base hover:text-zinc-500 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Linkedin size={14} className="group-hover:-translate-y-0.5 transition-transform duration-300"/>
+                <Linkedin size={14} className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"/>
                 linkedin.com/in/{aboutMe.linkedinUsername}
               </a>
             </>

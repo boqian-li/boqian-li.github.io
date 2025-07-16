@@ -24,7 +24,9 @@ export function PublicationEntry({
         <h3 className="font-serif text-lg mb-1 font-bold">{publication.title}</h3>
         <div className="flex flex-row gap-4 items-center mb-1">
           <p className="text-sm italic">
-            {publication.conference} {publication.year}
+            <span className="text-blue-500">
+              {publication.conference} {publication.year}
+            </span> 
           </p>
           {publication.award && (
             <div className="group flex px-2 py-1 bg-gradient-to-r from-amber-50 to-rose-50 rounded-md items-center shadow-md border border-amber-100/50 relative overflow-hidden hover:rotate-1 transition-all duration-300">
@@ -45,9 +47,9 @@ export function PublicationEntry({
             >
               <Globe
                 size={12}
-                className="group-hover:-translate-y-0.5 transition-transform duration-300"
+                className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"
               />
-              <span className="tracking-wider uppercase text-[#1e86c8] hover:text-blue-900 transition-colors duration-300 underline">Project Page</span>
+              <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">Project Page</span>
             </a>
           )}
           {publication.paperUrl && (
@@ -58,9 +60,9 @@ export function PublicationEntry({
             >
               <StickyNote
                 size={12}
-                className="group-hover:-translate-y-0.5 transition-transform duration-300"
+                className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"
               />
-              <span className="tracking-wider uppercase text-[#1e86c8] hover:text-blue-900 transition-colors duration-300 underline">Paper</span>
+              <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">Paper</span>
             </a>
           )}
           {publication.videoUrl && (
@@ -71,9 +73,9 @@ export function PublicationEntry({
             >
               <Video
                 size={12}
-                className="group-hover:-translate-y-0.5 transition-transform duration-300"
+                className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"
               />
-              <span className="tracking-wider uppercase text-[#1e86c8] hover:text-blue-900 transition-colors duration-300 underline">Video</span>
+              <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">Video</span>
             </a>
           )}
           {publication.codeUrl && (
@@ -84,9 +86,9 @@ export function PublicationEntry({
             >
               <Code
                 size={12}
-                className="group-hover:-translate-y-0.5 transition-transform duration-300"
+                className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"
               />
-              <span className="tracking-wider uppercase text-[#1e86c8] hover:text-blue-900 transition-colors duration-300 underline">Code</span>
+              <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">Code</span>
             </a>
           )}
           {publication.bibtex && (
@@ -97,9 +99,9 @@ export function PublicationEntry({
             >
               <ArrowUpRight
                 size={12}
-                className="group-hover:-translate-y-0.5 transition-transform duration-300"
+                className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"
               />
-              <span className="tracking-wider uppercase text-[#1e86c8] hover:text-blue-900 transition-colors duration-300 underline">BibTeX</span>
+              <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">BibTeX</span>
             </a>
           )}
         </div>
