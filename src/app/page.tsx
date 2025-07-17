@@ -34,7 +34,7 @@ export default function Home() {
             {aboutMe.description && (
               <section>
                 <p
-                  className="font-serif text-base leading-relaxed [&_a]:underline [&_a]:font-bold [&_a:hover]:text-zinc-500"
+                  className="font-serif text-base leading-relaxed [&_a]:text-[#1e86c8] [&_a]:font-bold [&_a:hover]:text-blue-400"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description }}
                 />
               </section>
