@@ -10,6 +10,15 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
+    date: "Jul 2025 - Present",
+    title: "Research Intern",
+    company: "The University of Texas at Austin",
+    // description:
+    //   "Focus on Representation and Understanding of 3D Digital Humans.",
+    advisor: "Prof. Qixing Huang and Prof. Georgios Pavlakos",
+    companyUrl: "https://www.cs.utexas.edu/~huangqx/",
+  },
+  {
     date: "Jul 2024 - May 2025",
     title: "Research Intern",
     company: "Endless Lab, Westlake University",
@@ -21,7 +30,7 @@ export const experienceData: Experience[] = [
   {
     date: "Nov 2023 - May 2024",
     title: "Research Intern",
-    company: "University of Utah & AIVC Lab, UCLA",
+    company: "AIVC Lab, UCLA",
     description:
       "Focus on 3D Garment Synthesis and Diffusion based Generative Models.",
     advisor: "Prof. Chenfanfu Jiang and Prof. Yin Yang",
