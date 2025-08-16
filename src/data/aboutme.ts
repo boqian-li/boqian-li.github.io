@@ -24,12 +24,11 @@ export const aboutMe: AboutMe = {
   institution: "Huazhong University of Science and Technology(HUST)",
   // Note that links work in the description
   description:
-    "I am a Research Intern at <a href='https://www.utexas.edu/'>The University of Texas at Austin</a>, supervised by Prof. <a href='https://www.cs.utexas.edu/~huangqx/'>Qixing Huang</a> and Prof. <a href='https://www.cs.utexas.edu/~pavlakos/'>Georgios Pavlakos</a>. I finished my undergraduate study at <a href='https://english.hust.edu.cn/'>Huazhong University of Science and Technology(HUST)</a>. <br><br> \
-    From 2024 to 2025, I was a Research Intern at <a href='http://endless.do/'>Endless Lab</a>, supervised by Prof. <a href='https://xiuyuliang.cn/'>Yuliang Xiu</a>, focusing on Representation and Understanding of 3D Digital Humans. <br><br> \
-    From 2023 to 2024, I served as a Research Intern at <a href='https://www.math.ucla.edu/aivc/'>AIVC Lab</a> at UCLA, supervised by Prof. <a href='https://www.math.ucla.edu/~cffjiang/index.html'>Chenfanfu Jiang</a> and Prof. <a href='https://yangzzzy.github.io/'>Yin Yang</a>, focusing on 3D Garment Generation. \
-    Before that, I explored and practiced in areas like physical simulation, Debiased Vision-Language Model and BCI(EEG analysis). <br><br> \
-    For more details, please refer to my <a href='/files/CV_Boqian_Li.pdf'>CV</a>. <br><br> \
-    <strong>I am looking for Fall 2026 PhD opportunities and am open to discussing potential research collaborations. Please contact me if you are interested! :)</strong>",
+    "<p>I am a Research Intern at <a href='https://www.utexas.edu/'>The University of Texas at Austin</a>, supervised by Prof. <a href='https://www.cs.utexas.edu/~huangqx/'>Qixing Huang</a> and Prof. <a href='https://www.cs.utexas.edu/~pavlakos/'>Georgios Pavlakos</a>. I finished my undergraduate study at <a href='https://english.hust.edu.cn/'>Huazhong University of Science and Technology(HUST)</a>.</p> \
+    <p>From 2024 to 2025, I was a Research Intern at <a href='http://endless.do/'>Endless Lab</a>, supervised by Prof. <a href='https://xiuyuliang.cn/'>Yuliang Xiu</a>, focusing on Representation and Understanding of 3D Digital Humans.</p> \
+    <p>From 2023 to 2024, I served as a Research Intern at <a href='https://www.math.ucla.edu/aivc/'>AIVC Lab</a> at UCLA, supervised by Prof. <a href='https://www.math.ucla.edu/~cffjiang/index.html'>Chenfanfu Jiang</a> and Prof. <a href='https://yangzzzy.github.io/'>Yin Yang</a>, focusing on 3D Garment Generation. \
+    Before that, I explored and practiced in areas like physical simulation, Debiased Vision-Language Model and BCI(EEG analysis).</p> \
+    <p>For more details, please refer to my <a href='/files/CV_Boqian_Li.pdf'>CV</a>.</p>",
   email: "boqianlihuster@gmail.com",
   imageUrl: "/images/IMG_0684.png",
   googleScholarUrl: "https://scholar.google.com/citations?user=7I8FkuoAAAAJ",

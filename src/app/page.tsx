@@ -29,12 +29,12 @@ export default function Home() {
           </div>
 
           {/* Right Column - Scrolling Content */}
-          <div className="col-span-12 md:col-span-8 md:col-start-5 space-y-16 md:space-y-24">
+          <div className="col-span-12 md:col-span-8 md:col-start-5 space-y-8 md:space-y-12">
             {/* About section is typically first */}
             {aboutMe.description && (
               <section>
-                <p
-                  className="font-serif text-base leading-relaxed [&_a]:text-[#1e86c8] [&_a]:font-bold [&_a:hover]:text-blue-400"
+                <div
+                  className="font-serif text-base leading-relaxed [&_a]:text-[#1e86c8] [&_a]:font-bold [&_a:hover]:text-blue-400 [&>p]:mb-4 last:[&>p]:mb-0"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description }}
                 />
               </section>
@@ -48,15 +48,19 @@ export default function Home() {
                   return (
                     newsData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-xl mb-6 tracking-wide uppercase">
+                        <h2 className="font-serif text-xl mb-6 tracking-wide uppercase font-bold">
                           News
                         </h2>
-                        <div className="space-y-12">
-                          {newsData.map((news, index) => (
-                            <div key={index}>
-                              <NewsEntry news={news} />
-                            </div>
-                          ))}
+                        <div className="max-h-[255px] overflow-y-auto pr-4 space-y-2 hover:overflow-y-scroll border-2 border-zinc-200 rounded-lg p-4 bg-zinc-50/70">
+                          {newsData
+                            .sort((a, b) => {
+                              if (a.pinned && !b.pinned) return -1;
+                              if (!a.pinned && b.pinned) return 1;
+                              return 0;
+                            })
+                            .map((news, index) => (
+                              <NewsEntry key={index} news={news} />
+                            ))}
                         </div>
                       </section>
                     )
@@ -83,12 +87,12 @@ export default function Home() {
                         <h2 className="font-serif text-xl mb-6 tracking-wide uppercase font-bold">
                           Research
                         </h2>
-                        <div className="space-y-12">
+                        <div className="space-y-6">
                           {publicationData.map((publication, index) => (
                             <div key={index}>
                               <PublicationEntry publication={publication} />
                               {index < publicationData.length - 1 && (
-                                <div className="h-px bg-zinc-200 my-8" />
+                                <div className="h-px bg-zinc-200 my-4" />
                               )}
                             </div>
                           ))}
@@ -103,7 +107,7 @@ export default function Home() {
                         <h2 className="font-serif text-xl mb-6 tracking-wide uppercase font-bold">
                           Experience
                         </h2>
-                        <div className="space-y-12">
+                        <div className="space-y-6">
                           {experienceData.map((experience, index) => (
                             <ExperienceEntry
                               key={index}

@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #050505;
