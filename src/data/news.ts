@@ -20,7 +20,6 @@ export const newsData: News[] = [
   },
   {
     date: "2025-06-26",
-    description: "One paper: <a href='https://arxiv.org/abs/2506.14603' target='_blank'>ETCH</a> is accepted by ICCV 2025!"
+    description: "One paper: <a href='https://boqian-li.github.io/ETCH/' target='_blank'>ETCH</a> is accepted by ICCV 2025!"
   },
-  
 ];
