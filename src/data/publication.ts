@@ -19,9 +19,9 @@ export const publicationData: Publication[] = [
     year: "2025",
     conference: "ICCV",
     title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness",
-    authors: "<b>Boqian Li</b>, Haiwen Feng*, Zeyu Cai, Michael&nbsp;J.&nbsp;Black, Yuliang Xiu† (* group lead, † corresponding author)",
+    authors: "<b>Boqian Li</b>, Haiwen Feng^, Zeyu Cai, Michael&nbsp;J.&nbsp;Black, Yuliang Xiu† (^ group lead, † corresponding author)",
     paperUrl: "https://arxiv.org/abs/2503.10624",
-    tldr: "Body fitting for clothed humans via equivariant tightness vectors and sparse markers, enabling handling challenging poses, unseen shapes, loose clothing, and extreme dynamics.",
+    tldr: "Clothed human body fitting via equivariant tightness vectors and sparse markers.",
     codeUrl: "https://github.com/boqian-li/ETCH",
     award: "⭐ Highlight",
     projectUrl: "https://boqian-li.github.io/ETCH/",
@@ -36,19 +36,27 @@ export const publicationData: Publication[] = [
     codeUrl: "https://github.com/boqian-li/GarmentDreamer",
     projectUrl: "https://xuan-li.github.io/GarmentDreamerDemo/",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "A novel 3DGS-guided template-based garment synthesis framework with impressive results.",
+    tldr: "Template-based 3D garment synthesis guided by consistent 3DGS reference.",
     imageUrl:
       "/images/teaser-garmentdreamer.png",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
-  // {
-  //   year: "2023",
-  //   conference: "ICML",
-  //   title: "Robust Causal Discovery Under Distribution Shift",
-  //   authors: "Jane Smith, Xue Chen, Sarah Johnson",
-  //   paperUrl: "https://arxiv.org/abs/2302.13095",
-  //   codeUrl: "https://github.com/jsmith/robust-causal-discovery",
-  // },
+  {
+    year: "2025",
+    conference: "arXiv",
+    title: "UP2You: Fast Reconstruction of Yourself from Unconstrained Photo Collections",
+    authors: "Zeyu Cai, Ziyang Li, Xiaoben Li, <b>Boqian Li</b>, Zeyu Wang, Zhenyu Zhang†, Yuliang Xiu† († corresponding author)",
+    paperUrl: "https://arxiv.org/abs/2509.24817",
+    codeUrl: "https://github.com/zcai0612/UP2You",
+    projectUrl: "https://zcai0612.github.io/UP2You/",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "3D avatar reconstruction from unconstrained photo collections.",
+    imageUrl:
+      "/images/teaser-up2you.png",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
 ];
