@@ -23,7 +23,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/abs/2503.10624",
     tldr: "Clothed human body fitting via equivariant tightness vectors and sparse markers.",
     codeUrl: "https://github.com/boqian-li/ETCH",
-    award: "⭐ Highlight",
+    award: "⭐ Highlight Paper (Top 8.9%)",
     projectUrl: "https://boqian-li.github.io/ETCH/",
     imageUrl: "/images/teaser-etch.png",
   },
