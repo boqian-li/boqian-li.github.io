@@ -19,7 +19,7 @@ export const publicationData: Publication[] = [
     year: "2025",
     conference: "ICCV",
     title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness",
-    authors: "<b>Boqian Li</b>, Haiwen Feng^, Zeyu Cai, Michael&nbsp;J.&nbsp;Black, Yuliang Xiu† (^ group lead, † corresponding author)",
+    authors: "<b>Boqian Li</b>, Haiwen Feng‡, Zeyu Cai, Michael&nbsp;J.&nbsp;Black, Yuliang Xiu† (‡ group lead, † corresponding author)",
     paperUrl: "https://arxiv.org/abs/2503.10624",
     tldr: "Clothed human body fitting via equivariant tightness vectors and sparse markers.",
     codeUrl: "https://github.com/boqian-li/ETCH",

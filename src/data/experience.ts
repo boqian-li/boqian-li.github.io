@@ -10,13 +10,13 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Jul 2025 - Present",
+    date: "Oct 2025 - Present",
     title: "Research Intern",
-    company: "The University of Texas at Austin",
+    company: "GVL Lab, USC",
     // description:
     //   "Focus on Representation and Understanding of 3D Digital Humans.",
-    advisor: "Prof. Qixing Huang and Prof. Georgios Pavlakos",
-    companyUrl: "https://www.cs.utexas.edu/~huangqx/",
+    advisor: "Prof. Yue Wang",
+    companyUrl: "https://usc-gvl.github.io/",
   },
   {
     date: "Jul 2024 - May 2025",
