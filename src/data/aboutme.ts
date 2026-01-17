@@ -30,7 +30,7 @@ export const aboutMe: AboutMe = {
     Before that, I explored and practiced in areas like physical simulation, Debiased Vision-Language Model and BCI(EEG analysis).</p> \
     <p>For more information, please refer to my <a href='/files/CV_Boqian_Li.pdf'>CV</a>.</p>",
   email: "boqianlihuster@gmail.com",
-  imageUrl: "/images/IMG_0684.png",
+  imageUrl: "/images/G1_and_Me.jpg",
   googleScholarUrl: "https://scholar.google.com/citations?user=7I8FkuoAAAAJ",
   githubUsername: "boqian-li",
   linkedinUsername: "boqian-li-3b8528282",
