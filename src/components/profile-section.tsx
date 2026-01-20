@@ -20,7 +20,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
 
   return (
     <div className="space-y-2 md:sticky top-12 flex flex-col">
-      <div className="flex flex-row-reverse md:flex-col gap-4 md:space-y-8">
+      <div className="flex flex-row-reverse md:flex-col gap-4 md:space-y-0">
         {aboutMe.imageUrl && (
           <div className="w-1/3 md:w-full flex-shrink-0">
             <div className="relative w-full md:w-[65%]">
@@ -47,7 +47,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
         </div>
       </div>
       <div>
-        <p className="text-base leading-relaxed uppercase mb-6">
+        <p className="text-sm leading-relaxed uppercase mb-6">
           {aboutMe.title},
           <br />
           {aboutMe.institutionUrl ? (

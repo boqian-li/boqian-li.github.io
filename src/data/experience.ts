@@ -12,11 +12,11 @@ export const experienceData: Experience[] = [
   {
     date: "Oct 2025 - Present",
     title: "Research Intern",
-    company: "GVL Lab, USC",
+    company: "PSI Lab, USC",
     // description:
     //   "Focus on Representation and Understanding of 3D Digital Humans.",
     advisor: "Prof. Yue Wang",
-    companyUrl: "https://usc-gvl.github.io/",
+    companyUrl: "https://psi-lab.ai/",
   },
   {
     date: "Jul 2024 - May 2025",
