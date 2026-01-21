@@ -23,7 +23,7 @@ export const experienceData: Experience[] = [
     title: "Research Intern",
     company: "Endless Lab, Westlake University",
     description:
-      "Focus on Representation and Understanding of 3D Digital Humans.",
+      "Focus on 3D Human Pose Shape Estimation and Representation.",
     advisor: "Prof. Yuliang Xiu",
     companyUrl: "http://endless.do/",
   },
