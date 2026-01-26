@@ -28,6 +28,22 @@ export const publicationData: Publication[] = [
     imageUrl: "/images/teaser-etch.png",
   },
   {
+    year: "2026",
+    conference: "ICLR",
+    title: "UP2You: Fast Reconstruction of Yourself from Unconstrained Photo Collections",
+    authors: "Zeyu Cai, Ziyang Li, Xiaoben Li, <b>Boqian Li</b>, Zeyu Wang, Zhenyu Zhang†, Yuliang Xiu† († corresponding author)",
+    paperUrl: "https://arxiv.org/abs/2509.24817",
+    codeUrl: "https://github.com/zcai0612/UP2You",
+    projectUrl: "https://zcai0612.github.io/UP2You/",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "3D avatar reconstruction from unconstrained photo collections.",
+    imageUrl:
+      "/images/teaser-up2you.png",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
     year: "2025",
     conference: "3DV",
     title: "GarmentDreamer: 3DGS Guided Garment Synthesis with Diverse Geometry and Texture Details",
@@ -43,20 +59,5 @@ export const publicationData: Publication[] = [
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
-  {
-    year: "2025",
-    conference: "arXiv",
-    title: "UP2You: Fast Reconstruction of Yourself from Unconstrained Photo Collections",
-    authors: "Zeyu Cai, Ziyang Li, Xiaoben Li, <b>Boqian Li</b>, Zeyu Wang, Zhenyu Zhang†, Yuliang Xiu† († corresponding author)",
-    paperUrl: "https://arxiv.org/abs/2509.24817",
-    codeUrl: "https://github.com/zcai0612/UP2You",
-    projectUrl: "https://zcai0612.github.io/UP2You/",
-    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "3D avatar reconstruction from unconstrained photo collections.",
-    imageUrl:
-      "/images/teaser-up2you.png",
-    // award: "🏆 Best Paper Award",
-    // if you have an image in public/images, you can use it like this:
-    // imageUrl: "/images/publication-image.jpg"
-  },
+  
 ];
