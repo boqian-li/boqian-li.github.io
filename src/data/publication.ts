@@ -25,7 +25,7 @@ export const publicationData: Publication[] = [
     codeUrl: "https://github.com/physical-superintelligence-lab/Psi0",
     // award: "⭐ Highlight Paper (Top 2.3%)",
     projectUrl: "https://psi-lab.ai/Psi0/",
-    imageUrl: "/images/teaser-psi0.png",
+    imageUrl: "/images/teaser-psi0.jpg",
   },
   {
     year: "2025",
