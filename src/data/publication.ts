@@ -16,6 +16,18 @@ export interface Publication {
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
+    year: "2026",
+    conference: "arXiv",
+    title: "Ψ0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
+    authors: "Songlin Wei*, Hongyi Jing*, <b>Boqian Li</b>*, Zhenyu Zhao*, Jiageng Mao, Zhenhao Ni, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Weiduo&nbsp;Yuan, Marco Pavone, Di Huang, Yue Wang† (* equal contribution, † corresponding author)",
+    paperUrl: "https://arxiv.org/abs/2603.12263",
+    tldr: "An open vision-language-action (VLA) model for dexterous humanoid loco-manipulation.",
+    codeUrl: "https://github.com/physical-superintelligence-lab/Psi0",
+    // award: "⭐ Highlight Paper (Top 2.3%)",
+    projectUrl: "https://psi-lab.ai/Psi0/",
+    imageUrl: "/images/teaser-psi0.png",
+  },
+  {
     year: "2025",
     conference: "ICCV",
     title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness",
