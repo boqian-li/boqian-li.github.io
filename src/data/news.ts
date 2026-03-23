@@ -7,7 +7,7 @@ export interface News {
 export const newsData: News[] = [
   {
     date: "",
-    description: "<strong>I am looking for Fall 2026 PhD opportunities and am open to discussing potential research collaborations. Please contact me if you are interested! :)</strong>",
+    description: "<strong>I am open to discussing potential research collaborations. Please contact me if you are interested! :)</strong>",
     pinned: true
   },
   {
