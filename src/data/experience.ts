@@ -10,13 +10,12 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Oct 2025 - Present",
+    date: "Jul 2025 - Dec 2025",
     title: "Research Intern",
-    company: "PSI Lab, USC",
-    // description:
-    //   "Focus on Representation and Understanding of 3D Digital Humans.",
-    advisor: "Prof. Yue Wang",
-    companyUrl: "https://psi-lab.ai/",
+    company: "The University of Texas at Austin",
+    description: 
+      "Focus on leveraging Video Model Priors for Enhanced 3D Human Motion Generation",
+    advisor: "Prof Qixing Huang and Prof. Georgios Pavlakos"
   },
   {
     date: "Jul 2024 - May 2025",
@@ -30,11 +29,11 @@ export const experienceData: Experience[] = [
   {
     date: "Nov 2023 - May 2024",
     title: "Research Intern",
-    company: "AIVC Lab, UCLA",
+    company: "University of Utah",
     description:
       "Focus on 3D Garment Synthesis and Diffusion based Generative Models.",
     advisor: "Prof. Chenfanfu Jiang and Prof. Yin Yang",
-    companyUrl: "https://www.math.ucla.edu/aivc/",
+    // companyUrl: "https://www.math.ucla.edu/aivc/",
   },
   // {
   //   date: "Summer 2022",
