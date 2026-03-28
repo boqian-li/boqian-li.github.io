@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 import { ArrowUpRight, StickyNote, Video, Code, Globe } from "lucide-react";
 import { Publication } from "@/data/publication";
 
@@ -7,16 +10,23 @@ export function PublicationEntry({
 }: {
   publication: Publication;
 }) {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div className="flex flex-col sm:flex-row gap-6">
       {publication.imageUrl && (
-        <div className="w-full sm:w-1/4 min-w-[160px] relative">
+        <div 
+          className="w-full sm:w-1/4 min-w-[160px] relative"
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
           <Image
-            src={publication.imageUrl}
+            src={isHovered && publication.hoverImageUrl ? publication.hoverImageUrl : publication.imageUrl}
             alt={publication.title}
             width={160}
             height={200}
             className="rounded-md transition-all duration-300"
+            unoptimized={isHovered && !!publication.hoverImageUrl}
           />
         </div>
       )}

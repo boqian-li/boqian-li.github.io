@@ -9,6 +9,7 @@ export interface Publication {
   projectUrl?: string;
   tldr?: string;
   imageUrl?: string;
+  hoverImageUrl?: string;
   videoUrl?: string;
   award?: string;
 }
@@ -26,6 +27,7 @@ export const publicationData: Publication[] = [
     // award: "⭐ Highlight Paper (Top 2.3%)",
     projectUrl: "https://psi-lab.ai/Psi0/",
     imageUrl: "/images/teaser-psi0.png",
+    hoverImageUrl: "/images/teaser-psi0.gif",
   },
   {
     year: "2025",
@@ -38,6 +40,7 @@ export const publicationData: Publication[] = [
     award: "⭐ Highlight Paper (Top 2.3%)",
     projectUrl: "https://boqian-li.github.io/ETCH/",
     imageUrl: "/images/teaser-etch.png",
+    hoverImageUrl: "/images/teaser-etch.gif",
   },
   {
     year: "2026",
@@ -51,6 +54,7 @@ export const publicationData: Publication[] = [
     tldr: "3D avatar reconstruction from unconstrained photo collections.",
     imageUrl:
       "/images/teaser-up2you.png",
+    hoverImageUrl: "/images/teaser-up2you.gif",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
@@ -67,6 +71,7 @@ export const publicationData: Publication[] = [
     tldr: "Template-based 3D garment synthesis guided by consistent 3DGS reference.",
     imageUrl:
       "/images/teaser-garmentdreamer.png",
+    hoverImageUrl: "/images/teaser-garmentdreamer.gif",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
