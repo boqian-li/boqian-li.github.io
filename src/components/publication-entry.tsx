@@ -13,13 +13,13 @@ export function PublicationEntry({
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="flex flex-col sm:flex-row gap-6">
+    <div 
+      className="flex flex-col sm:flex-row gap-6"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       {publication.imageUrl && (
-        <div 
-          className="w-full sm:w-1/4 min-w-[160px] relative"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-        >
+        <div className="w-full sm:w-1/4 min-w-[160px] relative">
           <Image
             src={isHovered && publication.hoverImageUrl ? publication.hoverImageUrl : publication.imageUrl}
             alt={publication.title}
