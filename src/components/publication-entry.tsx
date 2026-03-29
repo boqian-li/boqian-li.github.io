@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ArrowUpRight, StickyNote, Video, Code, Globe } from "lucide-react";
 import { Publication } from "@/data/publication";
 
@@ -12,6 +12,13 @@ export function PublicationEntry({
 }) {
   const [isHovered, setIsHovered] = useState(false);
 
+  useEffect(() => {
+    if (publication.hoverImageUrl) {
+      const img = new window.Image();
+      img.src = publication.hoverImageUrl;
+    }
+  }, [publication.hoverImageUrl]);
+
   return (
     <div 
       className="flex flex-col sm:flex-row gap-6"
@@ -21,18 +28,20 @@ export function PublicationEntry({
       {publication.imageUrl && (
         <div className="w-full sm:w-1/4 min-w-[160px] relative">
           <Image
-            src={isHovered && publication.hoverImageUrl ? publication.hoverImageUrl : publication.imageUrl}
+            src={publication.imageUrl}
             alt={publication.title}
             width={160}
             height={200}
-            className="rounded-md transition-all duration-300"
-            unoptimized={isHovered && !!publication.hoverImageUrl}
+            className="rounded-md"
           />
-          {/* Preload hover GIF image silently in the background */}
           {publication.hoverImageUrl && (
-            <div className="hidden" aria-hidden="true">
-              <img src={publication.hoverImageUrl} alt="preload" />
-            </div>
+            <img
+              src={publication.hoverImageUrl}
+              alt={publication.title}
+              width={160}
+              height={200}
+              className={`absolute inset-0 rounded-md transition-opacity duration-300 ${isHovered ? "opacity-100" : "opacity-0"}`}
+            />
           )}
         </div>
       )}
