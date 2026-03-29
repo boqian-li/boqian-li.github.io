@@ -28,6 +28,12 @@ export function PublicationEntry({
             className="rounded-md transition-all duration-300"
             unoptimized={isHovered && !!publication.hoverImageUrl}
           />
+          {/* Preload hover GIF image silently in the background */}
+          {publication.hoverImageUrl && (
+            <div className="hidden" aria-hidden="true">
+              <img src={publication.hoverImageUrl} alt="preload" />
+            </div>
+          )}
         </div>
       )}
       <div className="flex flex-col flex-1">
