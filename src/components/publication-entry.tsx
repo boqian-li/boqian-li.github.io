@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useRef } from "react";
 import { ArrowUpRight, StickyNote, Video, Code, Globe } from "lucide-react";
 import { Publication } from "@/data/publication";
 
@@ -11,18 +11,20 @@ export function PublicationEntry({
   publication: Publication;
 }) {
   const [isHovered, setIsHovered] = useState(false);
+  const gifRef = useRef<HTMLImageElement>(null);
 
-  useEffect(() => {
-    if (publication.hoverImageUrl) {
-      const img = new window.Image();
-      img.src = publication.hoverImageUrl;
+  const handleMouseEnter = () => {
+    if (gifRef.current && publication.hoverImageUrl) {
+      gifRef.current.src = "";
+      gifRef.current.src = publication.hoverImageUrl;
     }
-  }, [publication.hoverImageUrl]);
+    setIsHovered(true);
+  };
 
   return (
     <div 
       className="flex flex-col sm:flex-row gap-6"
-      onMouseEnter={() => setIsHovered(true)}
+      onMouseEnter={handleMouseEnter}
       onMouseLeave={() => setIsHovered(false)}
     >
       {publication.imageUrl && (
@@ -32,15 +34,16 @@ export function PublicationEntry({
             alt={publication.title}
             width={160}
             height={200}
-            className="rounded-md"
+            className={`rounded-md transition-opacity duration-300 ${isHovered && publication.hoverImageUrl ? "opacity-0" : "opacity-100"}`}
           />
           {publication.hoverImageUrl && (
             <img
+              ref={gifRef}
               src={publication.hoverImageUrl}
               alt={publication.title}
               width={160}
-              height={200}
-              className={`absolute inset-0 rounded-md transition-opacity duration-300 ${isHovered ? "opacity-100" : "opacity-0"}`}
+              loading="lazy"
+              className={`absolute top-0 left-0 rounded-md transition-opacity duration-300 ${isHovered ? "opacity-100" : "opacity-0"}`}
             />
           )}
         </div>
