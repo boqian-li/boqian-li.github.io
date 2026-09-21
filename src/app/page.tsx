@@ -13,9 +13,33 @@ import { portfolioData } from "@/data/portfolio";
 import { sectionOrder, Section } from "@/data/section-order";
 // import Image from "next/image";
 
+const profileSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://boqian-li.github.io/#profile",
+  url: "https://boqian-li.github.io/",
+  mainEntity: {
+    "@type": "Person",
+    "@id": "https://boqian-li.github.io/#person",
+    name: aboutMe.name,
+    alternateName: aboutMe.altName,
+    url: "https://boqian-li.github.io/",
+    image: `https://boqian-li.github.io${aboutMe.imageUrl}`,
+    sameAs: [
+      aboutMe.googleScholarUrl,
+      `https://github.com/${aboutMe.githubUsername}`,
+      `https://www.linkedin.com/in/${aboutMe.linkedinUsername}/`,
+    ],
+  },
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#FFFCF8]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(profileSchema).replace(/</g, "\\u003c") }}
+      />
       {/* Don't have a great call on whether max-w-screen-xl is better */}
       <div className="max-w-screen-lg mx-auto px-8 py-24">
         {/* Grid Layout */}

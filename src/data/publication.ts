@@ -40,7 +40,7 @@ export const publicationData: Publication[] = [
     authors: "Zeyu Cai, Ziyang Li, Xiaoben Li, <b>Boqian Li</b>, Zeyu Wang, Zhenyu Zhang†, Yuliang Xiu† († corresponding author)",
     paperUrl: "https://arxiv.org/abs/2509.24817",
     pdfUrl: "https://arxiv.org/pdf/2509.24817",
-    proceedingsUrl: "https://openreview.net/forum?id=oFsNco4aMm",
+    proceedingsUrl: "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63fa7efdd3bcf944a4bd6e0ff6a50041-Abstract-Conference.html",
     codeUrl: "https://github.com/zcai0612/UP2You",
     projectUrl: "https://zcai0612.github.io/UP2You/",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
@@ -73,7 +73,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2026",
-    conference: "arXiv",
+    conference: "RSS",
     title: "Ψ0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
     authors: "Songlin Wei*, Hongyi Jing*, <b>Boqian Li</b>*, Zhenyu Zhao*, Jiageng Mao, Zhenhao Ni, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Weiduo&nbsp;Yuan, Marco Pavone, Di Huang, Yue Wang† (* equal contribution, † corresponding author)",
     paperUrl: "https://arxiv.org/abs/2603.12263",
@@ -88,7 +88,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2026",
-    conference: "arXiv",
+    conference: "ECCV",
     title: "ETCH-X: Robustify Expressive Body Fitting to Clothed Humans with Composable Datasets",
     authors: "Xiaoben Li, Jingyi Wu, Zeyu Cai, Siyuan Yu, <b>Boqian Li</b>, Yuliang Xiu† († corresponding author)",
     paperUrl: "https://arxiv.org/abs/2604.08548",

@@ -48,6 +48,20 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: customMetadata.title || aboutMe.name,
   description: customMetadata.description || aboutMe.description,
+  openGraph: {
+    type: "website",
+    url: "https://boqian-li.github.io/",
+    siteName: aboutMe.name,
+    title: customMetadata.title || aboutMe.name,
+    description: customMetadata.description,
+    images: [{ url: "/images/G1_and_Me.jpg", width: 2316, height: 3088, alt: aboutMe.name }],
+  },
+  twitter: {
+    card: "summary",
+    title: customMetadata.title || aboutMe.name,
+    description: customMetadata.description,
+    images: ["/images/G1_and_Me.jpg"],
+  },
   icons: {
     icon: "/favicon.ico",
   },

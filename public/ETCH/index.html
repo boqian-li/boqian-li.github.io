@@ -8,16 +8,16 @@
   <meta property="og:title" content="ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"/>
   <meta property="og:description" content="A novel approach that accurately estimates human body shape under clothing by modeling cloth-to-body SE(3)-equivariant tightness vectors, significantly outperforming existing methods."/>
   <meta property="og:url" content="https://boqian-li.github.io/ETCH/"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/images/Teasor.svg" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://boqian-li.github.io/images/teaser-etch.png" />
+  <meta property="og:image:width" content="1554"/>
+  <meta property="og:image:height" content="1208"/>
 
 
   <meta name="twitter:title" content="ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness">
   <meta name="twitter:description" content="A novel approach that accurately estimates human body shape under clothing by modeling cloth-to-body SE(3)-equivariant tightness vectors, significantly outperforming existing methods.">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/Teasor.svg">
+  <!-- Social previews use an absolute PNG URL. -->
+  <meta name="twitter:image" content="https://boqian-li.github.io/images/teaser-etch.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
   <meta name="keywords" content="Human Pose Fitting, Registration, Human Pose Estimation, Digital Garments, 3D Human Body, SMPL, Clothed Human, Body Shape Estimation">
@@ -39,7 +39,7 @@
   <meta name="citation_doi" content="10.1109/ICCV51701.2025.00774">
   <meta name="citation_pdf_url" content="https://boqian-li.github.io/ETCH/ETCH.pdf">
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro&amp;display=swap"
   rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -188,22 +188,6 @@
     </div>
   </section>
 
-
-<!-- Full abstract precedes demonstration media for readers and indexers. -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-4">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Fitting a body to a 3D clothed human point cloud is a common yet challenging task. Traditional optimization-based approaches use multi-stage pipelines that are sensitive to pose initialization, while recent learning-based methods often struggle with generalization across diverse poses and garment types. We propose Equivariant Tightness Fitting for Clothed Humans, or ETCH, a novel pipeline that estimates cloth-to-body surface mapping through locally approximate SE(3) equivariance, encoding tightness as displacement vectors from the cloth surface to the underlying body. Following this mapping, pose-invariant body features regress sparse body markers, simplifying clothed human fitting into an inner-body marker fitting task. Extensive experiments on CAPE and 4D-Dress show that ETCH significantly outperforms state-of-the-art methods -- both tightness-agnostic and tightness-aware -- in body fitting accuracy on loose clothing (<span style="color: ForestGreen;">16.7% ~ 69.5%</span>) and shape accuracy (average <span style="color: ForestGreen;">49.9%</span>). Our equivariant tightness design can even reduce directional errors by (<span style="color: ForestGreen;">67.2% ~ 89.8%</span>) in one-shot (or out-of-distribution) settings (&approx;1% data). Qualitative results demonstrate strong generalization of ETCH, regardless of challenging poses, unseen shapes, loose clothing, and non-rigid dynamics. We will release the code and models soon for research purposes.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- Main Teaser Image -->
 <section class="hero teaser">
@@ -475,6 +459,22 @@
   </div>
 </section>
 
+
+<!-- Abstract -->
+<section class="section" id="Abstract">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Fitting a body to a 3D clothed human point cloud is a common yet challenging task. Traditional optimization-based approaches use multi-stage pipelines that are sensitive to pose initialization, while recent learning-based methods often struggle with generalization across diverse poses and garment types. We propose Equivariant Tightness Fitting for Clothed Humans, or ETCH, a novel pipeline that estimates cloth-to-body surface mapping through locally approximate SE(3) equivariance, encoding tightness as displacement vectors from the cloth surface to the underlying body. Following this mapping, pose-invariant body features regress sparse body markers, simplifying clothed human fitting into an inner-body marker fitting task. Extensive experiments on CAPE and 4D-Dress show that ETCH significantly outperforms state-of-the-art methods -- both tightness-agnostic and tightness-aware -- in body fitting accuracy on loose clothing (<span style="color: ForestGreen;">16.7% ~ 69.5%</span>) and shape accuracy (average <span style="color: ForestGreen;">49.9%</span>). Our equivariant tightness design can even reduce directional errors by (<span style="color: ForestGreen;">67.2% ~ 89.8%</span>) in one-shot (or out-of-distribution) settings (&approx;1% data). Qualitative results demonstrate strong generalization of ETCH, regardless of challenging poses, unseen shapes, loose clothing, and non-rigid dynamics. We will release the code and models soon for research purposes at <a href="https://boqian-li.github.io/ETCH/">boqian-li.github.io/ETCH</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!--BibTex citation -->
 <section class="section" id="BibTeX">
