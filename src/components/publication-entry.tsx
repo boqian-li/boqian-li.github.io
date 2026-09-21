@@ -91,17 +91,6 @@ export function PublicationEntry({
               <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">Paper</span>
             </a>
           )}
-          {publication.pdfUrl && (
-            <a
-              href={publication.pdfUrl}
-              className="group inline-flex items-center gap-2 text-sm font-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <StickyNote size={12} />
-              <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">PDF</span>
-            </a>
-          )}
           {publication.proceedingsUrl && (
             <a
               href={publication.proceedingsUrl}
