@@ -4,6 +4,8 @@ export interface Publication {
   title: string;
   authors: string;
   paperUrl?: string;
+  pdfUrl?: string;
+  proceedingsUrl?: string;
   codeUrl?: string;
   bibtex?: string;
   projectUrl?: string;
@@ -22,6 +24,8 @@ export const publicationData: Publication[] = [
     title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness",
     authors: "<b>Boqian Li</b>, Haiwen Feng‡, Zeyu Cai, Michael&nbsp;J.&nbsp;Black, Yuliang Xiu† (‡ group lead, † corresponding author)",
     paperUrl: "https://arxiv.org/abs/2503.10624",
+    pdfUrl: "/ETCH/ETCH.pdf",
+    proceedingsUrl: "https://openaccess.thecvf.com/content/ICCV2025/html/Li_ETCH_Generalizing_Body_Fitting_to_Clothed_Humans_via_Equivariant_Tightness_ICCV_2025_paper.html",
     tldr: "Clothed human body fitting via equivariant tightness vectors and sparse markers.",
     codeUrl: "https://github.com/boqian-li/ETCH",
     award: "⭐ Highlight Paper (Top 2.3%)",
@@ -35,6 +39,8 @@ export const publicationData: Publication[] = [
     title: "UP2You: Fast Reconstruction of Yourself from Unconstrained Photo Collections",
     authors: "Zeyu Cai, Ziyang Li, Xiaoben Li, <b>Boqian Li</b>, Zeyu Wang, Zhenyu Zhang†, Yuliang Xiu† († corresponding author)",
     paperUrl: "https://arxiv.org/abs/2509.24817",
+    pdfUrl: "https://arxiv.org/pdf/2509.24817",
+    proceedingsUrl: "https://openreview.net/forum?id=oFsNco4aMm",
     codeUrl: "https://github.com/zcai0612/UP2You",
     projectUrl: "https://zcai0612.github.io/UP2You/",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
@@ -50,8 +56,10 @@ export const publicationData: Publication[] = [
     year: "2025",
     conference: "3DV",
     title: "GarmentDreamer: 3DGS Guided Garment Synthesis with Diverse Geometry and Texture Details",
-    authors: "<b>Boqian Li</b>*, Xuan Li*, Ying Jiang*, Tianyi Xie, Feng Gao, Huamin&nbsp;Wang, Yin Yang, ChenfanfuJiang (* equal contribution)",
+    authors: "<b>Boqian Li</b>*, Xuan Li*, Ying Jiang*, Tianyi Xie, Feng Gao, Huamin&nbsp;Wang, Yin Yang, Chenfanfu Jiang (* equal contribution)",
     paperUrl: "https://arxiv.org/abs/2405.12420",
+    pdfUrl: "https://arxiv.org/pdf/2405.12420",
+    proceedingsUrl: "https://doi.org/10.1109/3DV66043.2025.00134",
     codeUrl: "https://github.com/boqian-li/GarmentDreamer",
     projectUrl: "https://xuan-li.github.io/GarmentDreamerDemo/",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
@@ -69,6 +77,8 @@ export const publicationData: Publication[] = [
     title: "Ψ0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
     authors: "Songlin Wei*, Hongyi Jing*, <b>Boqian Li</b>*, Zhenyu Zhao*, Jiageng Mao, Zhenhao Ni, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Weiduo&nbsp;Yuan, Marco Pavone, Di Huang, Yue Wang† (* equal contribution, † corresponding author)",
     paperUrl: "https://arxiv.org/abs/2603.12263",
+    pdfUrl: "https://arxiv.org/pdf/2603.12263",
+    proceedingsUrl: "https://www.roboticsproceedings.org/rss22/p021.html",
     tldr: "An open vision-language-action (VLA) model for humanoid loco-manipulation.",
     codeUrl: "https://github.com/physical-superintelligence-lab/Psi0",
     // award: "⭐ Highlight Paper (Top 2.3%)",
@@ -82,6 +92,8 @@ export const publicationData: Publication[] = [
     title: "ETCH-X: Robustify Expressive Body Fitting to Clothed Humans with Composable Datasets",
     authors: "Xiaoben Li, Jingyi Wu, Zeyu Cai, Siyuan Yu, <b>Boqian Li</b>, Yuliang Xiu† († corresponding author)",
     paperUrl: "https://arxiv.org/abs/2604.08548",
+    pdfUrl: "https://arxiv.org/pdf/2604.08548",
+    proceedingsUrl: "https://doi.org/10.1007/978-3-032-37029-7_26",
     tldr: "Disentangled undressing and dense fitting for scalable training, enabling expressive SMPL-X fitting to partial scans.",
     codeUrl: "https://github.com/XiaobenLi00/ETCH-X",
     projectUrl: "https://xiaobenli00.github.io/ETCH-X/",

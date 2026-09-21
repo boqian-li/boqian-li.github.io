@@ -44,6 +44,8 @@ const notoSerifSC = Noto_Serif_SC({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://boqian-li.github.io"),
+  alternates: { canonical: "/" },
   title: customMetadata.title || aboutMe.name,
   description: customMetadata.description || aboutMe.description,
   icons: {

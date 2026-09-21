@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://boqian-li.github.io/sitemap.xml

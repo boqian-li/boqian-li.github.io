@@ -64,7 +64,7 @@ export function PublicationEntry({
           )}
         </div>
         <p className="text-sm mb-3" dangerouslySetInnerHTML={{ __html: publication.authors }} />
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row flex-wrap gap-x-4 gap-y-2">
           {publication.projectUrl && (
             <a
               href={publication.projectUrl}
@@ -89,6 +89,28 @@ export function PublicationEntry({
                 className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"
               />
               <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">Paper</span>
+            </a>
+          )}
+          {publication.pdfUrl && (
+            <a
+              href={publication.pdfUrl}
+              className="group inline-flex items-center gap-2 text-sm font-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <StickyNote size={12} />
+              <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">PDF</span>
+            </a>
+          )}
+          {publication.proceedingsUrl && (
+            <a
+              href={publication.proceedingsUrl}
+              className="group inline-flex items-center gap-2 text-sm font-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ArrowUpRight size={12} />
+              <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">Proceedings</span>
             </a>
           )}
           {publication.videoUrl && (
