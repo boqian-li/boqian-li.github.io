@@ -98,7 +98,10 @@ export function PublicationEntry({
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ArrowUpRight size={12} />
+              <ArrowUpRight
+                size={12}
+                className="text-black group-hover:-translate-y-0.5 transition-transform duration-300"
+              />
               <span className="tracking-wider uppercase text-sm hover:text-zinc-500 transition-colors duration-300 underline">Proceedings</span>
             </a>
           )}
