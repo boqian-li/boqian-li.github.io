@@ -1,7 +1,7 @@
 import { EducationEntry } from "@/components/education-entry";
 import { educationData } from "@/data/education";
 import { PublicationEntry } from "@/components/publication-entry";
-import { publicationData } from "@/data/publication";
+import { publicationData, authorMarkLegend } from "@/data/publication";
 import { ProfileSection } from "@/components/profile-section";
 import { aboutMe } from "@/data/aboutme";
 import { NewsEntry } from "@/components/news-entry";
@@ -111,6 +111,10 @@ export default function Home() {
                         <h2 className="font-serif text-xl mb-6 tracking-wide uppercase font-bold">
                           Research
                         </h2>
+                        <p
+                          className="text-xs text-zinc-500 -mt-3 mb-6"
+                          dangerouslySetInnerHTML={{ __html: authorMarkLegend }}
+                        />
                         <div className="space-y-6">
                           {publicationData.map((publication, index) => (
                             <div key={index}>

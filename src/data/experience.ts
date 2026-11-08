@@ -10,17 +10,33 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Jul 2025 - Dec 2025",
+    date: "Mar 2026 - Present",
+    title: "Research Intern",
+    company: "WorldEngine AI",
+    description:
+      "Focus on agentic robotics and generalizable humanoid world-action models (WAM).",
+  },
+  {
+    date: "Oct 2025 - Jan 2026",
+    title: "Research Intern",
+    company: "PSI Lab, University of Southern California",
+    description:
+      "Focus on vision-language-action (VLA) models for humanoid loco-manipulation and real-time action chunking.",
+    advisor: "Prof. Yue Wang",
+    companyUrl: "https://psi-lab.ai/",
+  },
+  {
+    date: "Jul 2025 - Oct 2025",
     title: "Research Intern",
     company: "The University of Texas at Austin",
     description: 
-      "Focus on leveraging Video Model Priors for Enhanced 3D Human Motion Generation",
-    advisor: "Prof Qixing Huang and Prof. Georgios Pavlakos"
+      "Focus on leveraging video model priors for 3D human motion generation.",
+    advisor: "Prof. Qixing Huang and Prof. Georgios Pavlakos"
   },
   {
     date: "Jul 2024 - May 2025",
     title: "Research Intern",
-    company: "Endless Lab, Westlake University",
+    company: "Endless AI Lab, Westlake University",
     description:
       "Focus on 3D Human Pose Shape Estimation and Representation.",
     advisor: "Prof. Yuliang Xiu",
@@ -29,7 +45,7 @@ export const experienceData: Experience[] = [
   {
     date: "Nov 2023 - May 2024",
     title: "Research Intern",
-    company: "University of Utah",
+    company: "University of Utah & UCLA",
     description:
       "Focus on 3D Garment Synthesis and Diffusion based Generative Models.",
     advisor: "Prof. Chenfanfu Jiang and Prof. Yin Yang",

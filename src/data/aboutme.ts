@@ -20,15 +20,16 @@ export interface AboutMe {
 export const aboutMe: AboutMe = {
   name: "Boqian Li",
   altName: "李博谦",
-  title: "Undergraduate Student",
-  institution: "Huazhong University of Science and Technology(HUST)",
+  title: "", // left empty for now; the title/institution line is hidden when empty
+  institution: "Huazhong University of Science and Technology (HUST)",
   // Note that links work in the description
   description:
-    "<p>I am an Incoming CS PhD student at <a href='https://psi-lab.ai/'>PSI Lab</a> at USC, supervised by Prof. <a href='https://yuewang.xyz/'>Yue Wang</a>. I finished my undergraduate study at <a href='https://english.hust.edu.cn/'>Huazhong University of Science and Technology(HUST)</a>.</p> \
-    <p>From 2025 to 2026, I was a Research Intern at <a href='https://www.cs.utexas.edu/'>The University of Texas at Austin</a>, supervised by Prof. <a href='https://www.cs.utexas.edu/~huangqx/'>Qixing Huang</a> and Prof. <a href='https://geopavlakos.github.io/'>Georgios Pavlakos</a>, focusing on leveraging Video Model Priors for Enhanced 3D Human Motion Generation.</p> \
-    <p>From 2024 to 2025, I was a Research Intern at <a href='http://endless.do/'>Endless Lab</a> at Westlake University, supervised by Prof. <a href='https://xiuyuliang.cn/'>Yuliang Xiu</a>, focusing on 3D Human Pose Shape Estimation and Representation.</p> \
-    <p>From 2023 to 2024, I served as a Research Intern at University of Utah, supervised by Prof. <a href='https://www.math.ucla.edu/~cffjiang/index.html'>Chenfanfu Jiang</a> and Prof. <a href='https://yangzzzy.github.io/'>Yin Yang</a>, focusing on 3D Garment Generation. \
-    Before that, I explored and practiced in areas like physical simulation, Debiased Vision-Language Model and BCI(EEG analysis).</p> \
+    "<p>I am a Research Intern at WorldEngine AI, focusing on agentic robotics and generalizable humanoid world-action models (WAM). I received my B.Eng. from <a href='https://english.hust.edu.cn/'>Huazhong University of Science and Technology (HUST)</a>.</p> \
+    <p>From Oct 2025 to Jan 2026, I was a Research Intern at <a href='https://psi-lab.ai/'>PSI Lab</a> at USC, supervised by Prof. <a href='https://yuewang.xyz/'>Yue Wang</a>, focusing on vision-language-action (VLA) models for humanoid loco-manipulation.</p> \
+    <p>From Jul to Oct 2025, I was a Research Intern at <a href='https://www.cs.utexas.edu/'>The University of Texas at Austin</a>, supervised by Prof. <a href='https://www.cs.utexas.edu/~huangqx/'>Qixing Huang</a> and Prof. <a href='https://geopavlakos.github.io/'>Georgios Pavlakos</a>, focusing on leveraging video model priors for 3D human motion generation.</p> \
+    <p>From 2024 to 2025, I was a Research Intern at <a href='http://endless.do/'>Endless AI Lab</a> at Westlake University, supervised by Prof. <a href='https://xiuyuliang.cn/'>Yuliang Xiu</a>, focusing on 3D human pose and shape estimation and representation.</p> \
+    <p>From 2023 to 2024, I was a Research Intern at University of Utah &amp; UCLA, supervised by Prof. <a href='https://www.math.ucla.edu/~cffjiang/index.html'>Chenfanfu Jiang</a> and Prof. <a href='https://yangzzzy.github.io/'>Yin Yang</a>, focusing on 3D garment generation. \
+    Before that, I explored physical simulation, debiased vision-language models and BCI (EEG analysis).</p> \
     <p>For more information, please refer to my <a href='/files/CV_Boqian_Li.pdf'>CV</a>.</p>",
   email: "boqianlihuster@gmail.com",
   imageUrl: "/images/G1_and_Me.jpg",

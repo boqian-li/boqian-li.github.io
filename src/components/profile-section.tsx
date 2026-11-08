@@ -47,6 +47,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
         </div>
       </div>
       <div>
+        {aboutMe.title && (
         <p className="text-sm leading-relaxed uppercase mb-6">
           {aboutMe.title},
           <br />
@@ -63,6 +64,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             aboutMe.institution
           )}
         </p>
+        )}
         <div className="space-y-2">
           {aboutMe.cvUrl && (
             <>

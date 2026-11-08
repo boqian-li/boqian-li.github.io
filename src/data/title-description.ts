@@ -4,5 +4,5 @@ export interface CustomMetadata {
 }
 
 export const customMetadata: CustomMetadata = {
-  description: "Boqian Li focuses on embodied AI and humanoid robotics, with broader interests in 3D human and garment reconstruction and generation.",
+  description: "Boqian Li works on agentic robotics, humanoid world-action models (WAM) and embodied AI, with broader interests in 3D human and garment reconstruction and generation.",
 };

@@ -11,6 +11,14 @@ export const newsData: News[] = [
     pinned: true
   },
   {
+    date: "2026-06-03",
+    description: "<a href='https://psi-lab.ai/Psi0/' target='_blank'>Ψ0</a> wins the Best Paper Award at a CVPR 2026 workshop!",
+  },
+  {
+    date: "2026-04-27",
+    description: "One paper: <a href='https://psi-lab.ai/Psi0/' target='_blank'>Ψ0</a> is accepted to RSS 2026 as an Oral!",
+  },
+  {
     date: "2025-08-15",
     description: "Invited talk at <a href='https://qingkeai.online/archives/TBcYgpyb' target='_blank'>Qingke AI</a>.",
   },

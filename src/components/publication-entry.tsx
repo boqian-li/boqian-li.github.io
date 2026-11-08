@@ -50,8 +50,8 @@ export function PublicationEntry({
       )}
       <div className="flex flex-col flex-1">
         <h3 className="font-serif text-lg mb-1 font-bold">{publication.title}</h3>
-        <div className="flex flex-row gap-4 items-center mb-1">
-          <p className="text-sm font-bold font-mono text-[#1e86c8]">
+        <div className="flex flex-row flex-wrap gap-x-4 gap-y-1 items-center mb-1">
+          <p className="text-sm font-bold font-mono text-[#1e86c8] whitespace-nowrap">
             {publication.conference} {publication.year}
           </p>
           {publication.award && (
