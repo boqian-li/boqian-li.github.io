@@ -24,7 +24,7 @@ export const aboutMe: AboutMe = {
   institution: "Huazhong University of Science and Technology (HUST)",
   // Note that links work in the description
   description:
-    "<p>I am a Research Intern at WorldEngine AI, focusing on agentic robotics and generalizable humanoid world-action models (WAM). I received my B.Eng. from <a href='https://english.hust.edu.cn/'>Huazhong University of Science and Technology (HUST)</a>.</p> \
+    "<p>I am an incoming CS PhD at <a href='https://psi-lab.ai/'>PSI Lab</a> at USC, supervised by Prof. <a href='https://yuewang.xyz/'>Yue Wang</a> and also a Research Intern at WorldEngine AI, focusing on agentic robotics and generalizable humanoid world-action models (WAM). I received my B.Eng. from <a href='https://english.hust.edu.cn/'>Huazhong University of Science and Technology (HUST)</a>.</p> \
     <p>From Oct 2025 to Jan 2026, I was a Research Intern at <a href='https://psi-lab.ai/'>PSI Lab</a> at USC, supervised by Prof. <a href='https://yuewang.xyz/'>Yue Wang</a>, focusing on vision-language-action (VLA) models for humanoid loco-manipulation.</p> \
     <p>From Jul to Oct 2025, I was a Research Intern at <a href='https://www.cs.utexas.edu/'>The University of Texas at Austin</a>, supervised by Prof. <a href='https://www.cs.utexas.edu/~huangqx/'>Qixing Huang</a> and Prof. <a href='https://geopavlakos.github.io/'>Georgios Pavlakos</a>, focusing on leveraging video model priors for 3D human motion generation.</p> \
     <p>From 2024 to 2025, I was a Research Intern at <a href='http://endless.do/'>Endless AI Lab</a> at Westlake University, supervised by Prof. <a href='https://xiuyuliang.cn/'>Yuliang Xiu</a>, focusing on 3D human pose and shape estimation and representation.</p> \
